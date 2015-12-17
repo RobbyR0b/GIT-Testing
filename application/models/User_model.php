@@ -14,8 +14,8 @@ Class User_model extends CI_Model{
     }
     
     
-    function deleteUserInfo($id){
-        $this->db->delete('test', array('id' => $id));
+    function deleteUserInfoTest($id){
+        $this->db->delete('admin', array('id' => $id));
         
         return $this->db->affected_rows();
     }
