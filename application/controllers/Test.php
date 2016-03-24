@@ -19,9 +19,7 @@ class Welcome extends CI_Controller {
 	 * @see http://codeigniter.com/user_guide/general/urls.html
 	 */
 	public function index()
-	{		
-		//111111111111111111
-        echo "test test test ets";
+	{
 		$this->load->view('welcome_message');
 	}
 }

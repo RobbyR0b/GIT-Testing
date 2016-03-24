@@ -22,8 +22,5 @@ Class Admin_model extends CI_Model{
     
     
     
-    function haveFun($update){
-        return "Fun";
-    }
     
 }
